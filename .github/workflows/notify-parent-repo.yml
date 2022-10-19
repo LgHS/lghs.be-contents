@@ -3,7 +3,7 @@ name: Send repository_dispatch event to parent repo
 on:  
   push:  
     branches:  
-      - main  
+      - master
   
 jobs:  
   notify-parent-repo:  
