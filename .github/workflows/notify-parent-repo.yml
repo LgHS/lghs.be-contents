@@ -14,4 +14,4 @@ jobs:
         with:  
           token: ${{ secrets.ACCESS_TOKEN }}
           repository: LgHS/lghs.be
-          event-type: sync-shared-submodule
+          event-type: sync-shared-submodules
